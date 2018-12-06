@@ -76,7 +76,6 @@ public class SpeedCardView extends SurfaceView implements Runnable, Callback {
     public SpeedCardView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
-
     }
 
     /**
@@ -89,7 +88,6 @@ public class SpeedCardView extends SurfaceView implements Runnable, Callback {
         setFocusable(true); // フォーカスをあてることを可能にするメソッド
         requestFocus(); // フォーカスを要求して実行を可能にする
         mGameState = OPENING; //最初は OPENING 表示画面
-
     }
 
     /**
