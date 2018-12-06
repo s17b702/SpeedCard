@@ -27,10 +27,10 @@ import android.graphics.Rect;
  * @author 山上賢司
  * @version 0.1
  */
-public class ard {
+public class Card {
     private Bitmap mBmp = null;
     private Rect mLocation;
-    private booleanC mCIsTapped;
+    private boolean mIsTapped;
     private int mW, mH;
 
     /**C

@@ -3,8 +3,6 @@ package jp.ac.shohoku.android.speedcard;
 import android.graphics.Canvas;
 import java.util.Random;
 
-import javax.smartcardio.Card;
-
 /**
  * カード全体を管理するクラス
  * @author 永井聖也
@@ -31,7 +29,7 @@ public class CardManager {
     /**
      *  カードを配布
      */
-    public void distCard() {
+    public void distCards() {
         int left, top, right, bottom;
         Random rand = new Random();
 
