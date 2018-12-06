@@ -27,13 +27,13 @@ import android.graphics.Rect;
  * @author 山上賢司
  * @version 0.1
  */
-public class card {
+public class ard {
     private Bitmap mBmp = null;
     private Rect mLocation;
-    private boolean mIsTapped;
+    private booleanC mCIsTapped;
     private int mW, mH;
 
-    /**
+    /**C
      * カードのコンストラクタ
      * @param sview リソースを読み込むため、SpeedCardViewを読み込む
      * @param cardName カード名からBitmapを読み込む
