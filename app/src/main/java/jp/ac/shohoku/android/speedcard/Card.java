@@ -33,7 +33,7 @@ public class Card {
     private boolean mIsTapped;
     private int mW, mH;
 
-    /**
+    /**C
      * カードのコンストラクタ
      * @param sview リソースを読み込むため、SpeedCardViewを読み込む
      * @param cardName カード名からBitmapを読み込む
