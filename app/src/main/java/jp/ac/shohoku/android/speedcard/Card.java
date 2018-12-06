@@ -27,7 +27,7 @@ import android.graphics.Rect;
  * @author 山上賢司
  * @version 0.1
  */
-public class card {
+public class Card {
     private Bitmap mBmp = null;
     private Rect mLocation;
     private boolean mIsTapped;
